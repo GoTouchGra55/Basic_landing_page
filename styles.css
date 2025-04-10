@@ -1,0 +1,82 @@
+* {
+  font-family: sans-serif;
+  color: rgb(224, 224, 224);
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("images/Background.png");
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  font-size: 10px;
+  font-weight: 600;
+  background-color: #222; /* Optional: darker background */
+  text-align: center;
+  padding: 10px;
+}
+
+.options {
+  display: flex;
+  background-color: #0a0a0a98;
+  width: 100vw;
+  height: 13vh;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+a { 
+  text-decoration: none;
+  padding: 20px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.logo {
+  margin: -20px;
+  height: 80px;
+  width: 95px;
+}
+
+.missions {
+  background-color: rgba(0, 0, 0, 0.555);
+  margin: auto;
+  border-radius: 20px;
+  max-width: 80vw;
+  height: 70vh;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bolder;
+  padding: 20px;
+  color: rgb(247, 247, 247);
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+
+.landing, .rover, .telescope {
+  display: inline-block;
+  background-color: rgba(68, 65, 65, 0.349);
+  width: 20vw;
+  height: 45vh;
+}
+
+.align-me {
+  margin:20vh auto;
+}
